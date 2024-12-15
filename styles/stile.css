@@ -13,11 +13,26 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
-header__logo{
-    padding: 15px;
+.header__logo{
+    padding: 7px;
+}
+
+.header__menu{
+    padding-right: 80px;
+}
+
+.header__menu li{
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.header__menu li a{
+    color: black;
+    text-decoration: none;
 }
 
 .main{
